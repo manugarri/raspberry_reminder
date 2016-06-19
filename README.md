@@ -2,7 +2,7 @@
 
 If you have the following:
 
-1. A raspberry pi, connected to your wifi network
+1. A raspberry pi, connected to your wifi network. I also have the [sense hat]https://www.raspberrypi.org/products/sense-hat/) module. If you dont have it you can remove the `sense` related code.
 2. A speaker connected to the Raspberry
 3. Python
 
@@ -32,4 +32,4 @@ So, when I want to give me only one hour (and only one, not 5 or 8) of browsing 
 
 Will send an http request to the flask app on the raspberry, and set up an scheduled job with a delay of 3600 seconds (1 hour).
 
-Then, after that delay, the task will run, will connect to Google Speech API (using the awesome [gTTS](https://github.com/pndurette/gTTS) wrapper), create and mp3, and play it on the Raspberry's speakers.
+Then, after that delay, the task will run, will connect to Google Text-To-Speech Speech API (using the awesome [gTTS](https://github.com/pndurette/gTTS) wrapper), create and mp3, and play it on the Raspberry's speakers.
