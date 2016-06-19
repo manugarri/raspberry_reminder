@@ -1,0 +1,4 @@
+gTTS
+gunicorn
+falcon
+sense_hat
